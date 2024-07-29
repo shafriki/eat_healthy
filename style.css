@@ -19,7 +19,7 @@ body {
     position: absolute;
     z-index: 1;
     left: 640px;
-    top: -179px;
+    top: -199px;
     margin: 143px  150px 30px 30px;
 
 }
@@ -350,5 +350,9 @@ body {
         width: 100px;
         font-size: 14px;
         text-align: center;
+    }
+    .footer-description {
+        font-size: 13px;
+        
     }
 }
