@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
+/* banner section */
 .shape {
     width: 692px;
     height: 554px;
@@ -68,10 +69,48 @@
     background: linear-gradient(69.40deg, rgb(79, 251, 111) -6.919%,rgb(255, 30, 30) 144.985%);
 }
 
-/* * {
-    border: 1px solid red;
-}  */
-
+/* about me section */
+.about-img {
+    width: 338px;
+    height: 536px;
+    margin: 64px 198px 0px 199px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/shapes/7.png);
+    background-position: center;
+    margin-top: 30px;
+}
+.about-title {
+    color: rgb(112, 112, 112);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 60px 213px 32px 0px;
+}
+.about-description {
+    color: rgb(24, 25, 31);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    width: 444px;
+    margin: 0px 213px 80px 0px;
+}
+.about-btn {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 32px 24px 32px;
+    border-radius: 100px;
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
+    background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%,rgb(255, 30, 30) 144.985%);
+    width: 192px;
+    border: none;
+    cursor: pointer;
+    }
 /* responsive design for small devices */
 @media screen and (max-width:576px) {
     .banner-content {
